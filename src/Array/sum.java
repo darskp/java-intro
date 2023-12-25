@@ -21,7 +21,7 @@ public class sum {
     for (int i = 0; i < n; i++) {
       a[i] = s1.nextInt();
     }
-    System.out.println("Entered the elements are: ");
+    System.out.println("Entered elements are: ");
     for (int i = 0; i < n; i++) {
       System.out.println(a[i]);
     }
