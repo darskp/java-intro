@@ -65,6 +65,7 @@ public class notes {
 // 8. s.indexOf('e') //return 1st element -left right search - if it not present - -1
 // 9. s.subString(3,7) //
 // 10. a.equalsIgnoreCase(b); //true
+// 11. s.toCharArray(); 
 
 
 
