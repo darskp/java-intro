@@ -26,14 +26,16 @@
 // - classnotfound exception
 // - interrupted Execption
 // - IO exception
-// all the above exceptions inherited from exception class directly -also called checked exception
+// all the above exceptions inherited from exception class directly - also called checked exception - handled immediately - compiler known
 
-
-// under exception  - 1 type - run time exception also called as unchecked exception
+// under exception  - 1 type - run time exception also called as unchecked exception -compilter unknown - not handled immediately
 // - ArithmeticException
 // - ArrayIndexOutOfBoundsException
 // - NullPointerException
 // - ClassCasteExecption
+
+
+
 
 //TODO Syntax of Try catch block
 
