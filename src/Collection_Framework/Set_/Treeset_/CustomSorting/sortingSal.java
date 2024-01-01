@@ -1,0 +1,10 @@
+package Collection_Framework.Set_.Treeset_.CustomSorting;
+
+import java.util.Comparator;
+
+public class sortingSal implements Comparator<Employee>{
+    @Override
+    public int compare(Employee x, Employee y){
+        return x.salary.compareTo(y.salary);
+    }
+}
