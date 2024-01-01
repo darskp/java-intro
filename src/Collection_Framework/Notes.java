@@ -1,42 +1,32 @@
-package Collection_Framework;
 // Collection Framework
 
 // Data Structure
-// Way of storing/organizing the data 
-//arranging the data
-// ex - stack,queue
+// A way of storing/organizing data, arranging the data
+// Examples: stack, queue
 
-// 1. Variable - store a single object
-// 2. Array - Group of a objects
-// 3. Collection -  Group of a objects
+// 1. Variable - Stores a single object
+// 2. Array - Group of objects
+// 3. Collection - Group of objects
 
-// Difference between Array and collection 
+// Difference between Array and Collection
 
 // Array
 // - Homogeneous
-// - fixed size
-// - Doesn't have any methods
+// - Fixed size
+// - Doesn't have many methods
 // - Doesn't support generics
 
-// Collection - It is predefined interface and present in java.util library and introduced in JDK 2.1 
-// - Used to store group of objects
-
-// - Homo and Heterogeneous
+// Collection - A predefined interface present in the java.util library and introduced in JDK 1.2
+// - Used to store a group of objects
+// - Homogeneous and Heterogeneous
 // - Dynamic size
 // - Many predefined methods
-// - generics supported
+// - Generics supported
 
 // Collection Hierarchy
 // <<Iterable>>
-// <<collection>> - superset interface
+// <<Collection>> - Superset interface
 
-// <<list>> - ArrayList, vector, stack , linkedlist, PriorityQueue, Hashset,<<sortedSet>>,treeSet,<<set>>, linkedHashset,
-// <<queue>> 
-// <<set>>
-
-
-
-
-
-
-
+// <<List>> - ArrayList, Vector, Stack, LinkedList, PriorityQueue, HashSet, <<SortedSet>>, TreeSet, <<Set>>, LinkedHashSet,
+// <<Queue>>
+// <<Set>>

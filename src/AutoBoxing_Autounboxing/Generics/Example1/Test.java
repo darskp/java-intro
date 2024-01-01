@@ -1,4 +1,4 @@
-package Generics.Example1;
+package AutoBoxing_Autounboxing.Generics.Example1;
 
 import java.util.ArrayList;
 

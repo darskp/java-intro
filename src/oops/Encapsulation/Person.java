@@ -1,12 +1,13 @@
-//process of binding variable and function in single entity.
-// Java bean class
+// Process of binding variables and functions in a single entity.
+// Java Bean Class
 
-// Rules - 
-// 1. public class
-// 2. data members/variable should be private
-// 3. respective varibales should have getter and setter
+// Rules:
+// 1. Public class
+// 2. Data members/variables should be private.
+// 3. Respective variables should have getter and setter methods.
 
-//using constructor we can intialize the value only once if we want to change the value later  -  we need getter & setter
+// Using a constructor, we can initialize the value only once. If we want to change the value later, we need getter and setter methods.
+
 
 package oops.Encapsulation;
 

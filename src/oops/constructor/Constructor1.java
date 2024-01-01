@@ -1,32 +1,29 @@
 // Constructor
 
-//Constructor are special method, when we creating object simultaneously constructor will executed
+// Constructors are special methods that are executed when an object is created.
 
-// Syntax : 
-// Access specifier ClassName(aruguments){
-//set of instructions
+// Syntax:
+// Access specifier ClassName(arguments) {
+//     // Set of instructions
 // }
 
-// 2 types
-// 1. Default 
-// 2. custom - 2 types - 1. Non-Parameterized, 2. Parameterized
+// Two types of constructors:
+// 1. Default
+// 2. Custom - Two types - 1. Non-Parameterized, 2. Parameterized
 
-// 1. Default constructor 
-// - If a constructor is not explicitly present in a class, then the compiler will automatically generate a constructor and those constructors are called as Default
-// Constructor.
-//  - Default constructor neither accepts any arguments nor
-// has any implementation.
-//implicitly or internally present like this 
-// ClassName(){
+// 1. Default Constructor
+// - If a constructor is not explicitly present in a class, then the compiler will automatically generate a constructor.
+// - Default constructors neither accept any arguments nor have any explicit implementation.
+// - Implicitly or internally present like this:
+//   ClassName() {
+//   }
 
-// }
+// 2. Custom Constructors
 
+// Non-Parameterized Custom Constructor
+// - A constructor that is explicitly defined inside a class by the programmer.
+// - It does not accept any parameters or arguments.
 
-// 2. custom
-
-// Non-Parameterized Custom Constructor 
-// constructor is explicitly defined inside a class by the programmer.
-// not accepting any parameter/aruguments
 
 
 package oops.constructor;

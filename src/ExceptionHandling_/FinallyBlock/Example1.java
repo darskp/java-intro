@@ -1,6 +1,7 @@
 //! Finally Block
-// The set of instructions which has to be executed all the time has to witten within the finally block
-//We can have try and catch block within finally block
+// The set of instructions that have to be executed all the time should be written within the finally block.
+// We can have a try and catch block within the finally block.
+
 package ExceptionHandling_.FinallyBlock;
 
 public class Example1 {

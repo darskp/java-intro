@@ -1,4 +1,4 @@
-package Generics;
+package AutoBoxing_Autounboxing.Generics;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

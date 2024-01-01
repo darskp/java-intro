@@ -1,23 +1,24 @@
 package Array;
 
-//  Array is a container to store a group of Data/Elements.
-//  Synatx -
+// An array is a container to store a group of data/elements.
+// Syntax -
 
-// declartion
-// Datatype [] arrayname;
+// Declaration
+// DataType[] arrayName;
 
-//Creation
-// arrayname=new Datatype [size]
+// Creation
+// arrayName = new DataType[size];
 
 // Array Declaration and Creation
-//  Datatype[] arrayname = new Datatype[size];
+// DataType[] arrayName = new DataType[size];
 
-//initialiazation
-// Datatype[index]=value
+// Initialization
+// arrayName[index] = value;
 
-//array initialization directly
-// int[] arr={5,4,50,7}
-// arr.length
+// Array initialization directly
+// int[] arr = {5, 4, 50, 7};
+// arr.length;
+
 
 public class Array {
 

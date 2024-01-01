@@ -1,12 +1,14 @@
-//! hash code method
 
-// with the help of id or hash every object identify uniquely
+//! hashCode Method
 
-// Referencename.hashCode() - it is going to give unique id - 366
+// With the help of an id or hash, every object is identified uniquely.
 
-// to make id or hash custom - need to override - Object class is the super class
-// public int hashCode(){
-// return 124;
+// ReferenceName.hashCode() - it gives a unique id, for example, 366.
+
+// To customize the id or hash, you need to override the `hashCode` method from the Object class (the superclass).
+// Example:
+// public int hashCode() {
+//   return 124;
 // }
 
-// - no two object can have same id
+// No two objects can have the same id.

@@ -1,52 +1,45 @@
-package Collection_Framework.Lists;
-//! ListCollection_Framework.Lists
-// - predefined interface
-//  - java.util
-// jdk 1.2
+//! List Collection Framework - Lists
+// - Predefined interface
+// - java.util
+// - Introduced in JDK 1.2
 
-//Under list 4 types 
+// Under List, there are 4 types:
 
-// ArrayList
-// vector
-// stack
-// linkedlist
+// 1. ArrayList
+// 2. Vector
+// 3. Stack
+// 4. LinkedList
 
-// Specification
+// Specifications:
+// 1. Insertion order
+// 2. Duplicates allowed
+// 3. Indexed-based
+// 4. Null can be inserted
 
-// 1. insertion order
-// 2. duplication allowed
-// 3. indexed based
-// 4. null can be inserted
-
-
-// Upcasting - sub class object and  super class refrence, here it is interface
-// List l=
+// Upcasting - Subclass object and superclass reference; here, it is an interface
+// List l =
 // new ArrayList()
 // new Vector()
 // new Stack()
 // new LinkedList()
 
+//! 1. ArrayList
+// - Predefined class
+// - java.util
+// - 4 Specifications
+// - Initial capacity of ArrayList is 10
+// - It is dynamic
+// Underlying data structure: Resizable and growable array
 
-//! 1.ArrayList
-// - predefined class
-// - java-util
-// - 4 Specification
-// - initial capacity of arraylist size is 10
-// - it is dynamic
-// underlined data structure - resizable and growable array
-
-// ArrayList l=new ArrayList();
+// Example:
+// ArrayList l = new ArrayList();
 // l.add(10);
 // l.add(20);
 // ...
 // l.add(100)
 
-// - if array list capacity is full if u add new itemm - new array  will be created - to calculate the ((cuurrentCapcity*3)/2)+1
+// - If the ArrayList capacity is full, adding a new item will create a new array, calculated as ((currentCapacity*3)/2)+1.
+// - All objects from the old array are copied to the new array, and the garbage collector is invoked.
+// - References will be updated.
 
-// all the object from ola array copied to new array and garbage collector is created
-// - and reference will change
-
-// ArrayList implementes 4 interfaces - list,RandomAccess, Cloneable, Serializable
-
-
-
+// ArrayList implements 4 interfaces - List, RandomAccess, Cloneable, Serializable
